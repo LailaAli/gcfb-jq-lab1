@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <link rel='stylesheet' = href= './assets/css/style.css'/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Table Finder</title>
+</head>
+
+<body>
+
+        <div>
+            <h1>Table Finder</h1>
+        </div>
+    
+            <h4>Pick your table now</h4>
+
+        <div class="flex-container">
+            <div class="seating">
+                <div class="table res avail">1</div>
+                <div class="table res avail">2</div>
+                <div class="table res avail">3</div>
+                <div class="table res avail">4</div>
+                <div class="table res avail">5</div>
+                <div class="table res avail">6</div>
+                <div class="table res avail">7</div>
+                <div class="table res avail">8</div>
+                <div class="table res avail">9</div>
+            </div>
+        </div>
+    
+    
+    <div class="popupContainer" id="hideForm">
+        <div class="popup-inner">
+            <!-- <div class='close'>X</div> -->
+
+            <div class="newReservation">
+                <h2 class="formTitle">New Reservation</h2>
+                
+            </div>
+
+            <div id="tableNum">
+                <h4>Table Number:</h4> 
+                <div id="selectedTable"></div>
+            </div>
+
+            <div class="contactInfo">
+                <input class="inputGuest" placeholder="Full Name">
+                <input class="inputGuestPhone" placeholder="Contact Number">
+                <input class="inputPartySize" placeholder="Size of Party">
+            </div>
+
+            <div class="saveBtn">
+                <button id="saveBtn">SAVE</button>
+            </div>
+
+            <a class="popup-close" id="popupBtn">x</a>
+        </div>
+    </div>
+
+
+
+<!-- jquery files must always be the 1st script tag -->
+<script src="./assets/js/jquery-3.2.1.js"></script> 
+<script src="./assets/js/script.js"></script> 
+
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.js"></script>-->
+</body>
+
+</html>
